@@ -1,0 +1,135 @@
+/* ... */
+/* Your other styles */
+
+/* Back4App Guide Styles */
+
+html {
+	box-sizing: border-box;
+	outline: none;
+	overflow: auto;
+}
+
+*,
+*:before,
+*:after {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+body {
+	margin: 0;
+	background-color: #fff;
+}
+
+.container {
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  padding: 20px 0;
+}
+
+.wrapper {
+  width: '90%';
+  align-self: 'center';
+}
+
+.header {
+  align-items: center;
+  padding: 25px 0;
+  background-color: #208AEC;
+}
+
+.header_logo {
+  height: 55px;
+  margin-bottom: 20px;
+  object-fit: contain;
+}
+
+.header_text_bold {
+  margin-bottom: 3px;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.header_text {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 15px;
+}
+
+.flex_row {
+  display: flex;
+}
+
+.flex_between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.list_heading {
+  font-weight: bold;
+}
+
+.new_todo_wrapper {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.new_todo_wrapper > input {
+  margin-right: 20px;
+}
+
+.todo_item {
+  border-bottom-width: 1;
+  border-bottom-color: 'rgba(0, 0, 0, 0.12)';
+}
+
+.todo_text {
+  font-size: 15px;
+}
+
+.todo_text_done {
+  color: rgba(0, 0, 0, 0.3);
+  font-size: 15px;
+  text-decoration-line: line-through;
+}
+
+.todo_button {
+  width: 32px;
+  height: 32px;
+  margin-left: 5px;
+  background-color: transparent;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+}
+
+.todo_button:hover,
+.todo_button:focus {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.todo_button_icon_done {
+  color: #52c41a;
+  font-size: 16px;
+}
+
+.todo_button_icon_remove {
+  color: #f5222d;
+  font-size: 16px;
+}
